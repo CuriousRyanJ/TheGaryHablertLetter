@@ -1,0 +1,367 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: white;
+}
+
+.homepage_main {
+  max-width: 800px;
+  margin-left: auto ;
+  margin-right: auto;
+  background-color: #F8F8BE;
+  box-shadow: 5px 5px 10px;
+}
+
+
+div.header {
+  text-align: center;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.from {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0px 20px 0px 20px;
+  font-size: large;
+}
+
+.body_copy {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0px 20px 0px 20px;
+  font-size: large;
+
+}
+
+
+.center_text {
+  display: block;
+  font-weight: bolder;
+  text-align: center;
+  text-align: center;
+  max-block-size: 50%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#free {
+  text-decoration: underline;
+}
+
+
+img {
+  margin-left: 400px;
+}
+
+
+.signature > p {
+  display: block;
+  margin-left: 400px;
+}
+
+.homepagetable {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  border-spacing: 20px;
+  
+
+}
+
+.homepagetable > tr {
+  width: 0px;
+}
+
+.newsletterlink {
+  font-size: larger;
+  text-align: center;
+  border: 1px solid black;
+  height: 150px;
+  width: 500px;
+}
+
+
+div.copyright {
+  margin: 50px;
+  text-align: center;
+  font-size: medium;
+}
+
+
+/* ------------------------ Newsletter Archive URL ------------------------ */
+
+
+.newsletterarchive_body {
+  background-color: gold ;
+
+}
+
+.newsletterarchive_header {
+  padding-left: 25px;
+  padding-right: 25px;
+  max-width:fit-content;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: dashed;
+  background-color: white;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.newsletterarchive_logintable {
+  background-color: white;
+  border: double;
+  max-width: fit-content;
+  max-height: max-content;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Login Section */
+
+#logintable {
+border: none;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+a + h3 {
+  font-size: x-large;
+}
+
+th {
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+td {
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.login_input {
+  width: 250px;
+  height: 30px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+}
+
+
+th {
+  padding: 20px 30px 30px 20px;
+}
+
+
+#login_notice {
+  margin-left: auto;
+  text-align: left;
+  max-width: fit-content;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0 15px 15px 15px;
+}
+
+
+/* <!-- -------------- lostgarytapes_to_buyhalbertstuff ---------------------- --> */
+
+
+.lostgarytapes_to_buyhalbertstuff {
+  background-color: white;
+  border: dashed;
+  max-height: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width:max-content;
+}
+
+.lostgarytapes_to_buyhalbertstuff > p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0px 15px 0px 15px;
+}
+
+.lostgarytapes_to_buyhalbertstuff > p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: xx-large;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0px 15px 0px 15px;
+}
+
+.lostgarytapes_to_buyhalbertstuff > img {   /* Figuring out how to center the img took a min. Here's the link that I found to help me out https://www.freecodecamp.org/news/how-to-center-an-image-in-css/ */
+  margin: auto;
+  display: block;
+  size-adjust: 50%;
+
+}
+
+
+.lostgarytapes_to_buyhalbertstuff_table {
+  border-spacing: 15px;
+  padding-left: 15%;
+  padding-right: 15%;
+
+}
+
+.lostgarytapes_to_buyhalbertstuff_table_td {
+  border: 2px solid black;
+  border-collapse: separate;
+  height: 150px;
+  width: 500px;
+  text-align: center;
+  font-size: medium;
+  padding: 15px;
+  background-image: url(/imgs/envelope-new-gary.gif);
+}
+
+/* <!-- -------------- Unpublished Gary Halbert Letters ---------------------- --> */
+
+
+.unpublishedGHletters_to_howtowritekillerheadlines {
+  background-color: white;
+  border: dashed;
+  height: 1000px;
+  max-width: fit-content;
+  max-height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.unpublishedGHletters_to_howtowritekillerheadlines > p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0px 15px 0px 15px;
+}
+
+.unpublishedGHletters_to_howtowritekillerheadlines > img { 
+  margin: auto;
+  display: block;
+  size-adjust: 50%;
+}
+
+
+.unpublishedGHletters_to_howtowritekillerheadlines_table_td {
+  border: 2px solid black;
+  border-collapse: separate;
+  height: 150px;
+  width: 500px;
+  text-align: center;
+  font-size: medium;
+  padding: 15px;
+
+}
+
+
+
+
+/* <!-- -------------- Buy Official Halbert Products
+Over At Halbertising.com
+Halbert Publishing Inc. ---------------------- --> */
+
+
+.buyofficialhalbertproducts {
+  background-color: white;
+  border: dashed;
+  height: 1000px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.buyofficialhalbertproducts > p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0px 15px 0px 15px;
+
+}
+
+.buyofficialhalbertproducts > img { 
+  margin: auto;
+  display: block;
+  size-adjust: 50%;
+}
+
+.buyofficialhalbertproducts_table_td {
+  border: 2px solid black;
+  border-collapse: separate;
+  height: 150px;
+  width: 500px;
+  text-align: center;
+  font-size: medium;
+  padding: 15px;
+
+}
+
+/* <!-- -------------- The All-Star Audio Series Is An Audio Version
+Of The Gary Halbert Newsletter Series
+(Every Track Contains Extrodinary
+Never Before Released
+Extended Commentary By The
+Celebrities And Guest Expert Narrators!) ---------------------- --> */
+
+.theallstaraudioseriesinanaudioversion {
+  background-color: white;
+  border: dashed;
+  height: 1000px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Timeline of issues. 
+1. I couldn't get the main element to stay to a fxied size like the actual site does. It kept readjusting. So what I did was to just set a max width for that with margin-left and right being auto. Doing margin: #px #px #px #px didn't work in at all
+
+2. table {
+  margin-left: 50px;
+
+  I played with the different values between px and %. % never worked but px kept things centered. I still can't figure out how to make the padding inside the same though
+
+*/
